@@ -1,0 +1,89 @@
+form {
+    text-align: center;
+}
+
+body{
+    background-image: url("../images/backgrounds/logregbg.jpg");
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    min-width: 950px;
+}
+
+.login_box {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top:7%;
+    width: 35%;
+    background-color: #FFFFFFFF;
+    border: 1px solid #EDEDEDED;
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+
+.header_logintitle {
+    width: 100%;
+    height: 55px;
+    text-align: center;
+
+}
+
+.changeCtitle {
+    color: #747C6B;
+}
+
+.header_logintitle h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    color: #252525;
+    font-weight:600;
+}
+
+input[name="submit[signup]"] {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #36301F;
+    font-weight:600;
+    width: 70%;
+    border-radius: 10px;
+    margin: 5px 0 5px 0;
+    padding: 11px 15px 11px 15px;
+    color: #FFFFFFFF;
+}
+
+input[name="submit[signin]"] {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #36301F;
+    font-weight:600;
+    width: 70%;
+    border-radius: 10px;
+    margin: 5px 0 5px 0;
+    padding: 11px 15px 11px 15px;
+    color: #FFFFFFFF;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+    font-family: 'Inconsolata', monospace;
+    border: 1px solid #e5e5e5;
+    border-radius: 7px;
+    margin-top: 5px;
+    width: 70%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+    border: solid #B29E76 1.5px;
+}
+
+#second {
+    display: none;
+}

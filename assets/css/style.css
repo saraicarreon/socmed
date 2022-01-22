@@ -1,0 +1,454 @@
+::-webkit-scrollbar {
+    display: none;
+  } 
+
+body {
+    font-family: 'Inconsolata', monospace;
+    line-height: 17px;
+    background-color: #F6F6F6;
+}
+
+.top_bar {
+    width:100%;
+    min-width:1050px;
+    height:70px;
+    background-color: #36301F;
+    margin: 0 0 20px 0;
+    display: inline-flex;
+    
+}
+
+.top_bar h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    padding-left: 20px;
+    padding-top: 10px;
+    z-index: 10;
+}
+
+.logo a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size:30px;
+    position: relative;
+    top:9px; 
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    right: 1px;
+    position: absolute;
+    margin: 10px;
+}
+
+nav a{
+    position: relative;
+    color: #747C6B;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* 1ST COLUMN HOLDER */
+
+.leftcolumn {
+    flex-direction: column;
+    display: inline-block;
+}
+
+.user_details1 {
+    height: 140px;
+    width: 317px;
+    text-align: center;
+    margin: 0 0 0 -10;
+    font-size:17px;
+    position: relative;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+
+.user_details1 img, svg {
+    vertical-align: middle;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.user_details2 {
+    height: 45px;
+    width: 317px;
+    text-align: center;
+    margin: 0 0 0 -10;
+    color:white;
+    font-size:17px;
+    display: inline-block;
+    position: relative;
+    background-color: #DDAB4A;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.user_details3 {
+    height: 45px;
+    width: 317px;
+    text-align: center;
+    margin: 0 0 0 -10;
+    color:white;
+    font-size:17px;
+    display: inline-block;
+    position: relative;
+    background-color: #9F703D;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.user_details4 {
+    height: 45px;
+    width: 317px;
+    text-align: center;
+    margin: 0 0 0 -10;
+    color:white;
+    font-size:17px;
+    display: inline-block;
+    position: relative;
+    background-color: #36301F;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+/* 2ND COLUMN HOLDER */
+
+.rightcolumn {
+    flex-direction: column;
+    display: inline-block;
+    width: 50%;
+    min-height: 160px;
+}
+
+.post_form {
+    width: 100%;
+}
+
+.post_form textarea {
+    width: 100%;
+    height: 69px;
+    border-radius: 7px;
+    margin-right: 5px;
+    border: 1px solid #D3D3D3;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input#fileToUpload {
+    width: 234px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #DDAB4A;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 90%;
+    margin-left: 20px;
+    position: absolute;
+    outline: 0;
+    margin-left: 110px;
+    padding-left: 10px;
+    padding-top: 13px;
+}
+
+textarea:focus {
+    outline-color: #9F703D;
+}
+
+/* COLUMN HOLDER */
+
+.columnholder {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+
+/* TO MAKE ALL OF THEM CENTER */
+.columnholder_center {
+    width:100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.postbox {
+    background-color: #FFFFFF;
+    padding: 15px;
+    width: 90%;
+    margin-bottom: 40px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    color:#FFFFFF;
+}
+
+.post_form input[type="submit"] {
+    width: 95px;
+    height: 65px;
+    border: none;
+    border-radius: 10px;
+    background-color: #DDAB4A;
+    font-weight:600;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 90%;
+    position: absolute;
+    outline: 0;
+    margin: 0;
+}
+
+.post_form input[type="submit"]:active {
+    padding: 5px 4px 4px 5px;
+    background-color: #FFFFFF;
+}
+
+.post_form input[type="submit"] {
+    width: 95px;
+    height: 49px;
+    border: none;
+    border-radius: 10px;
+    background-color: #DDAB4A;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 90%;
+    position: absolute;
+    outline: 0;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.fileToUpload {
+    width: 95px;
+    height: 65px;
+    border: none;
+    border-radius: 10px;
+    background-color: #DDAB4A;
+    font-weight:600;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 90%;
+    margin-left:20px;
+    position: absolute;
+    outline: 0;
+    margin: 0;
+}
+
+.status_post {
+    background-color: #FFFFFF;
+    height: 6.5%;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: -45px;
+    margin-top: 59px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    color: #664d03;
+}
+
+.post_profile_pic {
+    float: left;
+    margin-right: 7px;
+}
+
+.post_profile_pic img {
+    border-radius: 5px;
+}
+
+
+#comment_iframe {
+    width: 100%;
+}
+
+.comment_section {
+    padding: 5px 15px 25px 15px;
+    margin-bottom: 5px;
+}
+
+.comment_section img {
+    margin: 0 3px 3px 3px;
+    border-radius: 7px;
+}
+
+#comment_form textarea {
+    margin: 5px 5px 5px 5px;
+    border-color: #D3D3D3;
+    width: 75%;
+    height: 58px;
+    margin: 14px 7px 0px 18px;
+    border-radius: 8px;
+}
+
+#comment_form input[type="submit"] {
+    border: none;
+    background-color: #DDAB4A;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 91px;
+    height: 59px;
+    margin-top: 13px;
+    position: absolute;
+}
+
+input#save_details {
+    border: none;
+    background-color: #DDAB4A;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 144px;
+    height: 37px;
+    position: absolute;
+    font-size: 13px;
+}
+
+input#close_account {
+    border: none;
+    background-color: #DDAB4A;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 144px;
+    height: 37px;
+    position: absolute;
+    font-size: 13px;
+}
+
+.newsfeedPostOptions {
+    padding: 0px;
+    text-decoration: none;
+    color: #9F703D;
+    border: none;
+    width: 50%;
+    display: flex;
+}
+
+/* HERES THE CODE TO EDIT THE STYLE OF THE LIKES !!!!!!! */
+
+.newsfeedPostOptions iframe {
+	border: 0px;
+	height: 14px;
+	width: 120px;
+}
+
+.comment_like {
+    font-family: 'Inconsolata', monospace;
+	background-color: transparent;
+	border: none;
+	font-size: 15px;
+	color: #9F703D;
+	padding: 0;
+	height: auto;
+	width: auto;
+	margin: 0;
+}
+
+.like_value {
+    font-family: 'Inconsolata', monospace;
+	display: inline;
+	font-size: 15px;
+}
+
+.posted-image img {
+    max-height: 300px;
+    max-width: 100%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe#comment_iframe {
+    border-radius: 30px;
+}
+
+.columnseperator {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.main_column {
+    margin-top: 0px;
+}
+
+.imagepost {
+    max-height: 100px;
+    max-width: 100%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smaller_img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#smaller_profile {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.main_column{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.profile-edittop{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 899px) {
+
+    .rightcolumn{
+        width:100%;
+        margin-left: 50px;
+    }
+
+    .main_column{
+        margin-left: -80px;
+    }
+    
+    #smaller_profile{
+        margin-left: 175px;
+    }
+
+    .account_title{
+        margin-left: 100px;
+    }
+
+}
